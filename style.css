@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    background-color: hsla(183, 26%, 71%, 0.616);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container div{
+    width: 15rem;
+    height: 22rem;
+    margin: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1{
+     font-weight: 900;
+     padding: 10px;
+     text-align: center ;
+     font-size: 15px;
+     color: var(--Dark-blue);
+}
+p{
+    font-size: 10px;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    color: var(--Grayish-blue)  ;
+}
